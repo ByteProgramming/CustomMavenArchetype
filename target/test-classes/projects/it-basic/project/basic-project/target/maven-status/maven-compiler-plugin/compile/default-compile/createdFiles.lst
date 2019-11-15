@@ -1,0 +1,6 @@
+it\pkg\App.class
+it\pkg\model\AppModel.class
+it\pkg\util\AppUtil.class
+it\pkg\controller\AppController.class
+it\pkg\service\AppService.class
+it\pkg\repository\AppRepository.class

@@ -1,0 +1,11 @@
+---
+applications:
+- name: ${project-name}
+  path: 
+  memory: 2G
+  instances: 1
+  env:
+    SPRING_PROFILES_ACTIVE : cloud
+  services:
+   - instance_A
+   - instance_X    
