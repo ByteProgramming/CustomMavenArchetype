@@ -1,9 +1,11 @@
 package ${package}.repository;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
-public class ${project-name}Repository{
+import ${package}.model.${project-name};
 
+public interface ${project-name}Repository extends JpaRepository<${project-name}, Integer> {
 
+	// that's it ... no need to write any code LOL!
+	
 }

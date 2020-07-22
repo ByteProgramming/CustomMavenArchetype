@@ -1,9 +1,17 @@
 package ${package}.service;
 
-import org.springframework.stereotype.Service;
+import java.util.List;
 
-@Service
-public class ${project-name}Service {
+import ${package}.model.${project-name};
 
+public interface ${project-name}Service {
 
+	public List<${project-name}> findAll();
+	
+	public ${project-name} findById(int theId);
+	
+	public void save(${project-name} theEmployee);
+	
+	public void deleteById(int theId);
+	
 }

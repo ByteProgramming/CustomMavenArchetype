@@ -1,2 +1,3 @@
 # CustomMavenArchetype
-This project contains how to create default empty project for spring boot
+
+This project contains how to generate project structure for spring boot/java application.

@@ -1,25 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-  <groupId>com.byteprogramming</groupId>
-  <artifactId>customArchetype</artifactId>
-  <version>0.0.1</version>
+  <groupId>com.byteprograming</groupId>
+  <artifactId>custom-archetype</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
-
-  <name>Archetype - customArchetype</name>
-
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
-
+  <name>Archetype - custom-archetype-emp</name>
+  <url>http://maven.apache.org</url>
+  
   <build>
     <extensions>
       <extension>
